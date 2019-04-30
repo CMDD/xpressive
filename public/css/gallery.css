@@ -1,0 +1,51 @@
+.caja-fondo-gallery img{
+  width: 100%;
+}
+.caja-fondo-gallery{
+  position: relative;
+  display: inline-block;
+}
+.we{
+  position: absolute;
+  top:30%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: Montserrat;
+  font-size: 51px;
+}
+.sweeten{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-family: Playfair;
+  font-size: 18vw;
+}
+.moments{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 51px;
+  width: 100%;
+  text-align: center;
+
+}
+.lista-categorias li{
+  list-style: none;
+  color: #6E25A2;
+  font-family: Montserrat;
+  font-size: 18px;
+  margin-top: 2%;
+
+}
+.lista-categorias a{
+  text-decoration:none;
+}
+.img-galerry{
+  width: 19%;
+  margin: 1%;
+}
