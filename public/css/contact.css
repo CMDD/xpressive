@@ -1,85 +1,110 @@
-.caja-contact img{
-  width: 100%;
-}
-.caja-contact{
-  position: relative;
-  display: inline-block;
+.caja-contact img {
+    width: 100%;
 }
 
-.plan{
-  position: absolute;
-  top: 30%;
-  left: 40%;
-  transform: translate(-50%,-50%);
-  color: white;
-  font-size: 51px;
-  font-family: Montserrat;
-}
-.party{
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  color: white;
-  font-family: Playfair;
-  font-size: 15vw;
-}
-.with-us{
-  position: absolute;
-  top: 65%;
-  left: 60%;
-  transform: translate(-50%,-50%);
-  color: white;
-  font-size: 51px;
-  font-family: Montserrat;
-}
-.contact-us{
-  font-size: 31px;
-  color: #F9A0D1;
-  font-family: Montserrat;
+.caja-contact {
+    position: relative;
+    display: inline-block;
 }
 
-.email{
-  font-size: 21px;
-  color: #F9A0D1;
-  font-family: Montserrat;
+.plan {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4vw;
+    font-family: Montserrat;
 }
 
-#seccion-form{
-  margin-top: 5%;
-}
-.caja-form{
-  margin-top: 5%;
-}
-
-.form-title{
-  color: #F9A0D1;
-  font-family: Playfair;
-  font-size: 31px;
-}
-.form-text{
-  font-family: Montserrat;
-  font-size:15px;
-}
-.form-input-contact{
-  border: 0;
-  border-bottom: 2px solid #70707042;
-  width: 60%;
-  margin-top: 3%;
-  box-shadow: none;
-
-}
-.form-textarea{
-  border: 0;
-  border-bottom: 2px solid #70707042;
-  width: 100%;
-
-}
-.btn-send{
-  color: white;
-  background: #F9A0D1;
-  width: 100%;
-  border-radius: 4px;
+.party {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Playfair;
+    font-size: 15vw;
 }
 
+.with-us {
+    position: absolute;
+    top: 65%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4vw;
+    font-family: Montserrat;
+    white-space: nowrap;
+}
 
+.contact-us {
+    font-size: 31px;
+    color: #F9A0D1;
+    font-family: Montserrat;
+}
+
+.email {
+    font-size: 21px;
+    color: #F9A0D1;
+    font-family: Montserrat;
+}
+
+#seccion-form {
+    margin-top: 5%;
+}
+
+.caja-form {
+    margin-top: 5%;
+}
+
+.form-title {
+    color: #F9A0D1;
+    font-family: Playfair;
+    font-size: 31px;
+}
+
+.form-text {
+    font-family: Montserrat;
+    font-size: 15px;
+}
+
+.form-input-contact {
+    border: 0;
+    border-bottom: 2px solid #70707042;
+    width: 60%;
+    margin-top: 3%;
+    box-shadow: none;
+
+}
+
+.form-textarea {
+    border: 0;
+    border-bottom: 2px solid #70707042;
+    width: 100%;
+
+}
+
+.btn-send {
+    color: white;
+    background: #F9A0D1;
+    width: 100%;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+
+    .plan {
+        font-size: 10vw;
+        top: 34%;
+    }
+
+    .party {
+        font-size: 30vw;
+    }
+
+    .with-us {
+        font-size: 10vw;
+        top: 60%;
+    }
+}

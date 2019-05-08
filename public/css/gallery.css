@@ -12,7 +12,7 @@
   transform: translate(-50%, -50%);
   color: white;
   font-family: Montserrat;
-  font-size: 51px;
+  font-size: 3vw;
 }
 .sweeten{
   position: absolute;
@@ -29,7 +29,7 @@
   left: 50%;
   transform: translate(-50%,-50%);
   color: white;
-  font-size: 51px;
+  font-size: 3vw;
   width: 100%;
   text-align: center;
 
@@ -48,4 +48,19 @@
 .img-galerry{
   width: 19%;
   margin: 1%;
+}
+
+@media (max-width: 768px) {
+
+    .we {
+        font-size: 9vw;
+        top: 32%;
+    }
+    .sweeten{
+        font-size: 20vw;
+    }
+    .moments {
+        font-size: 9vw;
+        top: 51%;
+    }
 }

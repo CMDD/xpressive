@@ -2,7 +2,8 @@
 @section('content')
 <section>
   <div class="caja-fondo-gallery">
-    <img src="img/gallery/fondo_gallery.jpg" alt="">
+    <img class="img-slider"  src="img/gallery/fondo_gallery.jpg" alt="">
+    <img class="img-slider-responsive"  src="img/gallery/fondo_gallery_responsive.jpg" alt="">
     <p class="we">We</p>
     <p class="sweeten">sweeten</p>
     <p class="moments">yours moments</p>
