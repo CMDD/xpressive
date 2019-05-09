@@ -14,9 +14,24 @@
                 </div>
             </div>
             <div class="swiper-slide">
-                <img class="img-slider" src="img/slider1.jpg" alt="">
-                <img class="img-slider-responsive" src="img/uno_responsive.jpg" alt="">
+                <div class="contenedor">
+                    <img class="img-slider" src="img/banner_2.jpg" alt="">
+                    <img class="img-slider-responsive" src="img/responsive_banner_2.jpg" alt="">
+                    <p class="xpressive-designs ">unique cakes&nbsp;&nbsp; </p>
+                    <p class="we-create">We make custom cakes</p>
+                    <button type="button" name="button">VIEW OUR SWEETS & PARTIES</button>
+                </div>
             </div>
+            <div class="swiper-slide">
+                <div class="contenedor">
+                    <img class="img-slider" src="img/banner_3.jpg" alt="">
+                    <img class="img-slider-responsive" src="img/responsive_banner_3.jpg" alt="">
+                    <p class="xpressive-designs">delicious cake pops</p>
+                    <p class="we-create">Cake pops made to your desire</p>
+                    <button type="button" name="button">VIEW OUR SWEETS & PARTIES</button>
+                </div>
+            </div>
+            
         </div>
         <!-- Add Arrows -->
         <div class="swiper-button-next"></div>
