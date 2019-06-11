@@ -26,7 +26,11 @@ Route::get('contact',function(){
 
 Route::get('administrador',function(){
   return view('admin.index');
-});
+})->middleware('auth');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
 

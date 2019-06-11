@@ -21,10 +21,8 @@
         <img style="width:15%;"  v-bind:src="'/'+product.image" alt="">
         </td>
         <td class="td-actions text-right">
-        <button type="button" rel="tooltip" title="Edit" class="btn btn-primary btn-simple btn-xs">
-        <i class="material-icons">edit</i>
-        </button>
-        <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
+        
+        <button type="button" rel="tooltip"  @click="deleteProduct(product.id)"  title="Remove" class="btn btn-danger btn-simple btn-xs">
         <i class="material-icons">close</i>
         </button>
         </td>
@@ -53,6 +51,13 @@
           this.products = res.data;
           console.log(res.data);
         });
+      },
+      deleteProduct(id){
+        axios.get('/api/delete-products/'+id).then(res=>{
+                  
+                  console.log(res.data);
+                  this.getProducts();
+                });
       }
     }
 

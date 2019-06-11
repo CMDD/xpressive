@@ -29,4 +29,10 @@ class ProductsController extends Controller
 
       return Products::where('category_id',$id)->get();
     }
+
+    public function delete($id){
+        $product = Products::find($id);
+        $product->delete();
+        return 'Eliminado';
+    }
 }
