@@ -4,7 +4,7 @@
     <div class="caja-contact">
         <img class="img-slider" src="img/fondo_contact.jpg" alt="">
         <img class="img-slider-responsive" src="img/fondo_contact_responsive.jpg" alt="">
-        <p class="plan">Plan yours</p>
+        <p class="plan">Plan your</p>
         <p class="party">Party</p>
         <p class="with-us">with us!</p>
     </div>
